@@ -8,7 +8,7 @@ from disposable_email_domains import blocklist
 import smtplib
 from time import sleep
 from piapy import PiaVpn
-from logger import Logger
+from ultra_logger import Logger
 import os
 
 mailer = {
@@ -17,8 +17,8 @@ mailer = {
 }
 
 credentials = {
-    "email": "pythonscript2306@outlook.com",
-    "password": "script99@passfor"
+    "email": "your mail",
+    "password": "your password"
 }
 
 class EmailValidator:
